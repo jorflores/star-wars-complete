@@ -34,7 +34,7 @@ function Add() {
             forcePoints: fp
         }
 
-        axios.post("https://calm-falls-73182.herokuapp.com/api/characters/",newChar)
+        axios.post("https://star-wars-api-2022.herokuapp.com/api/characters/",newChar)
         .then((response)=>{
             console.log(response)
 

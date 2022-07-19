@@ -9,7 +9,7 @@ function All() {
   const [data, setData] = useState([]);
 
   const getAllCharacters = () => {
-    axios.get("https://calm-falls-73182.herokuapp.com/api/characters").then((response) => {
+    axios.get("https://star-wars-api-2022.herokuapp.com/api/characters").then((response) => {
       console.log(response);
       setData(response.data);
     });

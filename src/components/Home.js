@@ -7,7 +7,7 @@ function Home() {
 
   const searchCharacter = () => {
     axios
-      .get("https://calm-falls-73182.herokuapp.com/api/characters/" + character)
+      .get("https://star-wars-api-2022.herokuapp.com/api/characters/" + character)
       .then((response) => {
         console.log(response);
         setData(response.data);
