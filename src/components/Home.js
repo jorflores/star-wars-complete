@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1>Star Wars Express</h1>
+        <h1>Star Wars Version 2</h1>
         <h3>The greatest resource in the galaxy for Star Wars statistics!</h3>
         <hr />
         <a href="/add"><button class="btn btn-danger btn-lg"><span class="fa fa-plus"></span> Add New Character</button></a>
